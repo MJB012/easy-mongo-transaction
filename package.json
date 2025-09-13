@@ -1,0 +1,27 @@
+{
+  "name": "easy-mongo-transactions",
+  "version": "1.0.0",
+  "description": "A lightweight helper for MongoDB + Mongoose transactions with automatic session management. Works with Node.js and NestJS.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mongodb",
+    "mongoose",
+    "transactions",
+    "nestjs",
+    "nodejs",
+    "database"
+  ],
+  "author": "mjb",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
